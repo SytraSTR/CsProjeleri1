@@ -1,0 +1,15 @@
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\bin\Debug\net6.0\ClassMetot.exe
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\bin\Debug\net6.0\ClassMetot.deps.json
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\bin\Debug\net6.0\ClassMetot.runtimeconfig.json
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\bin\Debug\net6.0\ClassMetot.dll
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\bin\Debug\net6.0\ClassMetot.pdb
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ClassMetot.csproj.AssemblyReference.cache
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ClassMetot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ClassMetot.AssemblyInfoInputs.cache
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ClassMetot.AssemblyInfo.cs
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ClassMetot.csproj.CoreCompileInputs.cache
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ClassMetot.dll
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\refint\ClassMetot.dll
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ClassMetot.pdb
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ClassMetot.genruntimeconfig.cache
+C:\Users\Sandro\Desktop\C#\Console\ClassMetot\ClassMetot\obj\Debug\net6.0\ref\ClassMetot.dll
