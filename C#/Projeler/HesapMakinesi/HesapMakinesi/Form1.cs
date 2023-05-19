@@ -1,143 +1,155 @@
-﻿using System;
+﻿using Bunifu.Framework.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace HesapMakinesi
 {
     public partial class Form1 : Form
     {
-        bool Durum = false;
-        double Sonuc = 0;
-        string Islem = " ";
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Rakam(object sender, EventArgs e)
+        private void bunifuThinButton220_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text=="0"||Durum)
+            Application.Exit();
+        }
+        bool Durum = false;
+        double Sonuc = 0;
+        string Islem = " ";
+        private void Girdi(object sender, EventArgs e)
+        {
+            if (bunifuMaterialTextbox1.Text == "0" || Durum)
             {
-                textBox1.Clear();
+                bunifuMaterialTextbox1.Text = "";
             }
             Durum = false;
-            Button btn = (Button)sender;
-            textBox1.Text += btn.Text;
+            BunifuThinButton2 btn = (BunifuThinButton2)sender;
+            bunifuMaterialTextbox1.Text += btn.ButtonText;
         }
 
         private void Islemler(object sender, EventArgs e)
         {
             Durum = true;
-            Button islem = (Button)sender;
-            string yeniIslem = islem.Text;
-            label1.Text = label1.Text + " " + textBox1.Text + " " + yeniIslem;
+            BunifuThinButton2 islem = (BunifuThinButton2)sender;
+            string yeniIslem = islem.ButtonText;
+            bunifuCustomLabel1.Text = bunifuCustomLabel1.Text + " " + bunifuMaterialTextbox1.Text + " " + yeniIslem;
             switch (Islem)
             {
                 case "+":
-                    textBox1.Text = (Sonuc + Convert.ToDouble(textBox1.Text)).ToString();
-                break;
+                    bunifuMaterialTextbox1.Text = (Sonuc + Convert.ToDouble(bunifuMaterialTextbox1.Text)).ToString();
+                    break;
                 case "-":
-                    textBox1.Text = (Sonuc - Convert.ToDouble(textBox1.Text)).ToString();
-                break;
+                    bunifuMaterialTextbox1.Text = (Sonuc - Convert.ToDouble(bunifuMaterialTextbox1.Text)).ToString();
+                    break;
                 case "*":
-                    textBox1.Text = (Sonuc * Convert.ToDouble(textBox1.Text)).ToString();
-                break;
+                    bunifuMaterialTextbox1.Text = (Sonuc * Convert.ToDouble(bunifuMaterialTextbox1.Text)).ToString();
+                    break;
                 case "/":
-                    textBox1.Text = (Sonuc / Convert.ToDouble(textBox1.Text)).ToString();
-                break;
+                    bunifuMaterialTextbox1.Text = (Sonuc / Convert.ToDouble(bunifuMaterialTextbox1.Text)).ToString();
+                    break;
             }
             Islem = yeniIslem;
-            Sonuc = Convert.ToDouble(textBox1.Text);
-            textBox1.Text = Sonuc.ToString();
+            Sonuc = Convert.ToDouble(bunifuMaterialTextbox1.Text);
+            bunifuMaterialTextbox1.Text = Sonuc.ToString();
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            textBox1.Text = "0";
+            
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void bunifuThinButton222_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "0";
-            label1.Text = "";
+            bunifuMaterialTextbox1.Text = "0";
+            bunifuCustomLabel1.Text = "";
             Islem = "";
             Sonuc = 0;
             Durum = false;
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void bunifuThinButton223_Click(object sender, EventArgs e)
         {
-            label1.Text = "";
+            bunifuMaterialTextbox1.Text = "0";
+        }
+
+        private void bunifuThinButton221_Click(object sender, EventArgs e)
+        {
+            bunifuCustomLabel1.Text = "";
             switch (Islem)
             {
                 case "+":
-                    textBox1.Text = (Sonuc + Convert.ToDouble(textBox1.Text)).ToString();
-                break;
+                    bunifuMaterialTextbox1.Text = (Sonuc + Convert.ToDouble(bunifuMaterialTextbox1.Text)).ToString();
+                    break;
                 case "-":
-                    textBox1.Text = (Sonuc - Convert.ToDouble(textBox1.Text)).ToString();
-                break;
+                    bunifuMaterialTextbox1.Text = (Sonuc - Convert.ToDouble(bunifuMaterialTextbox1.Text)).ToString();
+                    break;
                 case "*":
-                    textBox1.Text = (Sonuc * Convert.ToDouble(textBox1.Text)).ToString();
-                break;
+                    bunifuMaterialTextbox1.Text = (Sonuc * Convert.ToDouble(bunifuMaterialTextbox1.Text)).ToString();
+                    break;
                 case "/":
-                    textBox1.Text = (Sonuc / Convert.ToDouble(textBox1.Text)).ToString();
-                break;
+                    bunifuMaterialTextbox1.Text = (Sonuc / Convert.ToDouble(bunifuMaterialTextbox1.Text)).ToString();
+                    break;
             }
             Islem = " ";
-            Sonuc = Convert.ToDouble(textBox1.Text);
-            textBox1.Text = Sonuc.ToString();
+            Sonuc = Convert.ToDouble(bunifuMaterialTextbox1.Text);
+            bunifuMaterialTextbox1.Text = Sonuc.ToString();
         }
 
-        private void button17_Click(object sender, EventArgs e)
+        private void bunifuThinButton214_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "0"||Durum)
+            if (bunifuMaterialTextbox1.Text == "0" || Durum)
             {
-                textBox1.Text = "0";
+                bunifuMaterialTextbox1.Text = "0";
             }
-            if (!textBox1.Text.Contains(","))
+            if (!bunifuMaterialTextbox1.Text.Contains(","))
             {
-                textBox1.Text += ",";
+                bunifuMaterialTextbox1.Text += ",";
             }
             Durum = false;
         }
 
-        private void button19_Click(object sender, EventArgs e)
+        private void bunifuThinButton213_Click(object sender, EventArgs e)
         {
-            if (Convert.ToDouble(textBox1.Text)>0)
+            if (Convert.ToDouble(bunifuMaterialTextbox1.Text) > 0)
             {
-                textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1, 1);
-                if (textBox1.Text.Length==0)
+                bunifuMaterialTextbox1.Text = bunifuMaterialTextbox1.Text.Remove(bunifuMaterialTextbox1.Text.Length - 1, 1);
+                if (bunifuMaterialTextbox1.Text.Length == 0)
                 {
-                    textBox1.Text = "0";
+                    bunifuMaterialTextbox1.Text = "0";
                 }
             }
         }
 
-        private void button20_Click(object sender, EventArgs e)
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-            double kare = Convert.ToDouble(textBox1.Text);
+            double kare = Convert.ToDouble(bunifuMaterialTextbox1.Text);
             kare = kare * kare;
-            textBox1.Text = Convert.ToString(kare);
+            bunifuMaterialTextbox1.Text = Convert.ToString(kare);
         }
 
-        private void button21_Click(object sender, EventArgs e)
+        private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
-            double kareKok = Convert.ToDouble(textBox1.Text);
+            double kareKok = Convert.ToDouble(bunifuMaterialTextbox1.Text);
             kareKok = Math.Sqrt(kareKok);
-            textBox1.Text = Convert.ToString(kareKok);
+            bunifuMaterialTextbox1.Text = Convert.ToString(kareKok);
         }
 
-        private void button22_Click(object sender, EventArgs e)
+        private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
-            double Yuzde = Convert.ToDouble(textBox1.Text)/100; 
-            label1.Text = textBox1.Text+"%";
-            textBox1.Text = Convert.ToString(Yuzde);
+            double Yuzde = Convert.ToDouble(bunifuMaterialTextbox1.Text) / 100;
+            bunifuCustomLabel1.Text = bunifuMaterialTextbox1.Text + "%";
+            bunifuMaterialTextbox1.Text = Convert.ToString(Yuzde);
         }
     }
 }

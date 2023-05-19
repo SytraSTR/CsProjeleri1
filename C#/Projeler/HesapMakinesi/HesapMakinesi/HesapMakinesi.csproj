@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5BBA164C-27A9-4D6E-A581-F32568AE18F5}</ProjectGuid>
+    <ProjectGuid>{8008B7AA-0026-4AD6-88A5-B12CA0818F49}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>HesapMakinesi</RootNamespace>
     <AssemblyName>HesapMakinesi</AssemblyName>
@@ -33,8 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
