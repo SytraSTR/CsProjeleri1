@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\d.DoWhile\\DoWhile\\DoWhile.csproj",
+      "projectUniqueName": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\d.DoWhile\\DoWhile\\DoWhile.csproj",
       "projectName": "DoWhile",
-      "projectPath": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\d.DoWhile\\DoWhile\\DoWhile.csproj",
+      "projectPath": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\d.DoWhile\\DoWhile\\DoWhile.csproj",
       "packagesPath": "C:\\Users\\Sandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\d.DoWhile\\DoWhile\\obj\\",
+      "outputPath": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\d.DoWhile\\DoWhile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

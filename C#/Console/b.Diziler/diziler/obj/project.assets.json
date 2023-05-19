@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\b.Diziler\\diziler\\diziler.csproj",
+      "projectUniqueName": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\b.Diziler\\diziler\\diziler.csproj",
       "projectName": "diziler",
-      "projectPath": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\b.Diziler\\diziler\\diziler.csproj",
+      "projectPath": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\b.Diziler\\diziler\\diziler.csproj",
       "packagesPath": "C:\\Users\\Sandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\b.Diziler\\diziler\\obj\\",
+      "outputPath": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\b.Diziler\\diziler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

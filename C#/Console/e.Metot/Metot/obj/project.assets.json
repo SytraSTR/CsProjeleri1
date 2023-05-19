@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\e.Metot\\Metot\\Metot.csproj",
+      "projectUniqueName": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\e.Metot\\Metot\\Metot.csproj",
       "projectName": "Metot",
-      "projectPath": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\e.Metot\\Metot\\Metot.csproj",
+      "projectPath": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\e.Metot\\Metot\\Metot.csproj",
       "packagesPath": "C:\\Users\\Sandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\e.Metot\\Metot\\obj\\",
+      "outputPath": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\e.Metot\\Metot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

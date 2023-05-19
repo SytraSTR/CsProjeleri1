@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\h.ClassMetot\\ClassMetot\\ClassMetot.csproj",
+      "projectUniqueName": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\h.ClassMetot\\ClassMetot\\ClassMetot.csproj",
       "projectName": "ClassMetot",
-      "projectPath": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\h.ClassMetot\\ClassMetot\\ClassMetot.csproj",
+      "projectPath": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\h.ClassMetot\\ClassMetot\\ClassMetot.csproj",
       "packagesPath": "C:\\Users\\Sandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sandro\\Desktop\\CsProjeleri1\\C#\\Console\\h.ClassMetot\\ClassMetot\\obj\\",
+      "outputPath": "C:\\Users\\Sandro\\Desktop\\C#\\Console\\h.ClassMetot\\ClassMetot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

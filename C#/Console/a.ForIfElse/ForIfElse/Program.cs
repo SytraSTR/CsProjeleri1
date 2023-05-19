@@ -4,23 +4,34 @@
     {
         public static void Main(string[] args)
         {
-            int baslangicDegeri = 0, bitisDegeri = 0;
-            Console.Write("Başlangıç değerini giriniz; ");
-            baslangicDegeri=Int16.Parse(Console.ReadLine());
-            Console.Write("Bitiş değerini giriniz; ");
-            bitisDegeri = Int16.Parse(Console.ReadLine());
-            Console.WriteLine();
-            for (int i = baslangicDegeri; i <= bitisDegeri ; i++)
-            {
-                if (i % 3 == 0 && i % 5 == 0)
+			try
+			{
+                int baslangicDegeri = 0, bitisDegeri = 0;
+                Console.Write("Başlangıç değerini giriniz; ");
+                baslangicDegeri = Int16.Parse(Console.ReadLine());
+                Console.Write("Bitiş değerini giriniz; ");
+                bitisDegeri = Int16.Parse(Console.ReadLine());
+                Console.WriteLine();
+                for (int i = baslangicDegeri; i <= bitisDegeri; i++)
                 {
-                    Console.WriteLine(i);
+                    if (i % 3 == 0 && i % 5 == 0)
+                    {
+                        Console.WriteLine(i);
+                    }
                 }
+                Console.Write("\nEnter basarsanız uygulama tekrardan başlar.");
+                Console.ReadLine();
+                Console.Clear();
+                Main(args);
             }
-            Console.Write("\nEnter basarsanız uygulama tekrardan başlar.");
-            Console.ReadLine();
-            Console.Clear();
-            Main(args);
+			catch (Exception hata)
+			{
+				Console.WriteLine("Bir hata gerçekleşti; " + hata);
+                Console.Write("\nEnter basarsanız uygulama tekrardan başlar.");
+                Console.ReadLine();
+                Console.Clear();
+                Main(args);
+            }
         }
     }
 }
