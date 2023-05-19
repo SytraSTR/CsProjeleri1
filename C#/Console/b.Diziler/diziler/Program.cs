@@ -12,7 +12,11 @@
                 sinav[i] = Convert.ToInt16(Console.ReadLine());
                 toplam += sinav[i];
             }
-            Console.WriteLine("Girilen 3 sınavın ortalaması; " + (toplam) / 3);
+            Console.WriteLine("\nGirilen 3 sınavın ortalaması; " + (toplam) / 3);
+            Console.Write("\nEnter basarsanız uygulama tekrardan başlar.");
+            Console.ReadLine();
+            Console.Clear();
+            Main(args);
         }
     }
 }

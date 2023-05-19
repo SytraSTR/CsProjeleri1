@@ -1,0 +1,15 @@
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\bin\Debug\net6.0\OverLoadMetot.exe
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\bin\Debug\net6.0\OverLoadMetot.deps.json
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\bin\Debug\net6.0\OverLoadMetot.runtimeconfig.json
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\bin\Debug\net6.0\OverLoadMetot.dll
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\bin\Debug\net6.0\OverLoadMetot.pdb
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\OverLoadMetot.csproj.AssemblyReference.cache
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\OverLoadMetot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\OverLoadMetot.AssemblyInfoInputs.cache
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\OverLoadMetot.AssemblyInfo.cs
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\OverLoadMetot.csproj.CoreCompileInputs.cache
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\OverLoadMetot.dll
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\refint\OverLoadMetot.dll
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\OverLoadMetot.pdb
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\OverLoadMetot.genruntimeconfig.cache
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Console\g.OverLoadMetot\OverLoadMetot\obj\Debug\net6.0\ref\OverLoadMetot.dll
