@@ -88,8 +88,8 @@
             this.bunifuThinButton21.ActiveBorderThickness = 1;
             this.bunifuThinButton21.ActiveCornerRadius = 20;
             this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.Lime;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Lime;
             this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
             this.bunifuThinButton21.ButtonText = "x²";
@@ -114,8 +114,8 @@
             this.bunifuThinButton22.ActiveBorderThickness = 1;
             this.bunifuThinButton22.ActiveCornerRadius = 20;
             this.bunifuThinButton22.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton22.ActiveForecolor = System.Drawing.Color.Lime;
+            this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Lime;
             this.bunifuThinButton22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
             this.bunifuThinButton22.ButtonText = "√ ";
@@ -140,8 +140,8 @@
             this.bunifuThinButton23.ActiveBorderThickness = 1;
             this.bunifuThinButton23.ActiveCornerRadius = 20;
             this.bunifuThinButton23.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton23.ActiveForecolor = System.Drawing.Color.Lime;
+            this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.Lime;
             this.bunifuThinButton23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
             this.bunifuThinButton23.ButtonText = "%";
@@ -400,8 +400,8 @@
             this.bunifuThinButton213.ActiveBorderThickness = 1;
             this.bunifuThinButton213.ActiveCornerRadius = 20;
             this.bunifuThinButton213.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton213.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton213.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton213.ActiveForecolor = System.Drawing.Color.Red;
+            this.bunifuThinButton213.ActiveLineColor = System.Drawing.Color.Red;
             this.bunifuThinButton213.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton213.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton213.BackgroundImage")));
             this.bunifuThinButton213.ButtonText = "<-";
@@ -478,8 +478,8 @@
             this.bunifuThinButton216.ActiveBorderThickness = 1;
             this.bunifuThinButton216.ActiveCornerRadius = 20;
             this.bunifuThinButton216.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton216.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton216.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton216.ActiveForecolor = System.Drawing.Color.Lime;
+            this.bunifuThinButton216.ActiveLineColor = System.Drawing.Color.Lime;
             this.bunifuThinButton216.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton216.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton216.BackgroundImage")));
             this.bunifuThinButton216.ButtonText = "+";
@@ -504,8 +504,8 @@
             this.bunifuThinButton217.ActiveBorderThickness = 1;
             this.bunifuThinButton217.ActiveCornerRadius = 20;
             this.bunifuThinButton217.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton217.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton217.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton217.ActiveForecolor = System.Drawing.Color.Lime;
+            this.bunifuThinButton217.ActiveLineColor = System.Drawing.Color.Lime;
             this.bunifuThinButton217.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton217.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton217.BackgroundImage")));
             this.bunifuThinButton217.ButtonText = "-";
@@ -530,8 +530,8 @@
             this.bunifuThinButton218.ActiveBorderThickness = 1;
             this.bunifuThinButton218.ActiveCornerRadius = 20;
             this.bunifuThinButton218.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton218.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton218.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton218.ActiveForecolor = System.Drawing.Color.Lime;
+            this.bunifuThinButton218.ActiveLineColor = System.Drawing.Color.Lime;
             this.bunifuThinButton218.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton218.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton218.BackgroundImage")));
             this.bunifuThinButton218.ButtonText = "*";
@@ -556,8 +556,8 @@
             this.bunifuThinButton219.ActiveBorderThickness = 1;
             this.bunifuThinButton219.ActiveCornerRadius = 20;
             this.bunifuThinButton219.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton219.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton219.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton219.ActiveForecolor = System.Drawing.Color.Lime;
+            this.bunifuThinButton219.ActiveLineColor = System.Drawing.Color.Lime;
             this.bunifuThinButton219.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton219.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton219.BackgroundImage")));
             this.bunifuThinButton219.ButtonText = "/";
@@ -583,7 +583,7 @@
             this.bunifuThinButton221.ActiveCornerRadius = 20;
             this.bunifuThinButton221.ActiveFillColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton221.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton221.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton221.ActiveLineColor = System.Drawing.Color.Lime;
             this.bunifuThinButton221.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton221.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton221.BackgroundImage")));
             this.bunifuThinButton221.ButtonText = "=";
@@ -608,8 +608,8 @@
             this.bunifuThinButton222.ActiveBorderThickness = 1;
             this.bunifuThinButton222.ActiveCornerRadius = 20;
             this.bunifuThinButton222.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton222.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton222.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton222.ActiveForecolor = System.Drawing.Color.Red;
+            this.bunifuThinButton222.ActiveLineColor = System.Drawing.Color.Red;
             this.bunifuThinButton222.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton222.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton222.BackgroundImage")));
             this.bunifuThinButton222.ButtonText = "C";
@@ -634,8 +634,8 @@
             this.bunifuThinButton223.ActiveBorderThickness = 1;
             this.bunifuThinButton223.ActiveCornerRadius = 20;
             this.bunifuThinButton223.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton223.ActiveForecolor = System.Drawing.Color.Cyan;
-            this.bunifuThinButton223.ActiveLineColor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton223.ActiveForecolor = System.Drawing.Color.Red;
+            this.bunifuThinButton223.ActiveLineColor = System.Drawing.Color.Red;
             this.bunifuThinButton223.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton223.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton223.BackgroundImage")));
             this.bunifuThinButton223.ButtonText = "CE";
@@ -671,7 +671,7 @@
             this.bunifuThinButton220.ActiveBorderThickness = 1;
             this.bunifuThinButton220.ActiveCornerRadius = 20;
             this.bunifuThinButton220.ActiveFillColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton220.ActiveForecolor = System.Drawing.Color.Cyan;
+            this.bunifuThinButton220.ActiveForecolor = System.Drawing.Color.Red;
             this.bunifuThinButton220.ActiveLineColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton220.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuThinButton220.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton220.BackgroundImage")));
