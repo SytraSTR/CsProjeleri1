@@ -40,6 +40,10 @@ namespace HesapMakinesi
 
         private void Islemler(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text=="")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             Durum = true;
             BunifuThinButton2 islem = (BunifuThinButton2)sender;
             string yeniIslem = islem.ButtonText;
@@ -85,6 +89,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton221_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text=="")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             bunifuCustomLabel1.Text = "";
             switch (Islem)
             {
@@ -121,6 +129,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton213_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text=="")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             if (Convert.ToDouble(bunifuMaterialTextbox1.Text) > 0)
             {
                 bunifuMaterialTextbox1.Text = bunifuMaterialTextbox1.Text.Remove(bunifuMaterialTextbox1.Text.Length - 1, 1);
@@ -133,6 +145,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text=="")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             double kare = Convert.ToDouble(bunifuMaterialTextbox1.Text);
             kare = kare * kare;
             bunifuMaterialTextbox1.Text = Convert.ToString(kare);
@@ -140,6 +156,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text=="")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             double kareKok = Convert.ToDouble(bunifuMaterialTextbox1.Text);
             kareKok = Math.Sqrt(kareKok);
             bunifuMaterialTextbox1.Text = Convert.ToString(kareKok);
@@ -147,6 +167,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text=="")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             double Yuzde = Convert.ToDouble(bunifuMaterialTextbox1.Text) / 100;
             bunifuCustomLabel1.Text = bunifuMaterialTextbox1.Text + "%";
             bunifuMaterialTextbox1.Text = Convert.ToString(Yuzde);

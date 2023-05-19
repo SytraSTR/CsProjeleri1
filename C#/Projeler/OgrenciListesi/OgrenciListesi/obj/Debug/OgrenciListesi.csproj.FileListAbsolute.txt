@@ -11,3 +11,15 @@ C:\Users\Sandro\Desktop\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.c
 C:\Users\Sandro\Desktop\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.csproj.CopyComplete
 C:\Users\Sandro\Desktop\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.exe
 C:\Users\Sandro\Desktop\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.pdb
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\bin\Debug\OgrenciListesi.exe.config
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\bin\Debug\OgrenciListesi.exe
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\bin\Debug\OgrenciListesi.pdb
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.csproj.AssemblyReference.cache
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.Form1.resources
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.Properties.Resources.resources
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.csproj.GenerateResource.cache
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.csproj.CoreCompileInputs.cache
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.csproj.CopyComplete
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.exe
+C:\Users\Sandro\Desktop\CsProjeleri1\C#\Projeler\OgrenciListesi\OgrenciListesi\obj\Debug\OgrenciListesi.pdb
