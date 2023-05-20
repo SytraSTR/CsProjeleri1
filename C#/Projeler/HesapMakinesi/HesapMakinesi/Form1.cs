@@ -44,6 +44,10 @@ namespace HesapMakinesi
             {
                 bunifuMaterialTextbox1.Text = "0";
             }
+            if (bunifuMaterialTextbox1.Text== "NaN")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             Durum = true;
             BunifuThinButton2 islem = (BunifuThinButton2)sender;
             string yeniIslem = islem.ButtonText;
@@ -89,6 +93,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton221_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text == "NaN")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             if (bunifuMaterialTextbox1.Text=="")
             {
                 bunifuMaterialTextbox1.Text = "0";
@@ -145,6 +153,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text == "NaN")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             if (bunifuMaterialTextbox1.Text=="")
             {
                 bunifuMaterialTextbox1.Text = "0";
@@ -156,6 +168,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text == "NaN")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             if (bunifuMaterialTextbox1.Text=="")
             {
                 bunifuMaterialTextbox1.Text = "0";
@@ -167,6 +183,10 @@ namespace HesapMakinesi
 
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
+            if (bunifuMaterialTextbox1.Text == "NaN")
+            {
+                bunifuMaterialTextbox1.Text = "0";
+            }
             if (bunifuMaterialTextbox1.Text=="")
             {
                 bunifuMaterialTextbox1.Text = "0";
@@ -174,6 +194,11 @@ namespace HesapMakinesi
             double Yuzde = Convert.ToDouble(bunifuMaterialTextbox1.Text) / 100;
             bunifuCustomLabel1.Text = bunifuMaterialTextbox1.Text + "%";
             bunifuMaterialTextbox1.Text = Convert.ToString(Yuzde);
+        }
+
+        private void bunifuMaterialTextbox1_OnValueChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -118,5 +118,10 @@ namespace OgrenciListesi
         {
             Application.Exit();
         }
+
+        private void bunifuThinButton28_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+        }
     }
 }
