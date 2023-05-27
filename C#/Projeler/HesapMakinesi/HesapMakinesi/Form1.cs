@@ -33,6 +33,10 @@ namespace HesapMakinesi
             {
                 bunifuMaterialTextbox1.Text = "";
             }
+            if (bunifuMaterialTextbox1.Text=="NaN")
+            {
+                bunifuMaterialTextbox1.Text = "";
+            }
             Durum = false;
             BunifuThinButton2 btn = (BunifuThinButton2)sender;
             bunifuMaterialTextbox1.Text += btn.ButtonText;
@@ -74,7 +78,7 @@ namespace HesapMakinesi
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+           
         }
 
         private void bunifuThinButton222_Click(object sender, EventArgs e)
